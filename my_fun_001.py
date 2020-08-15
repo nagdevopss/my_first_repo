@@ -19,7 +19,7 @@ def my_second_fun():
 def my_user_validation():
     u_name = argv[1]
     p_name = argv[2]
-    if (u_name == "nagendra") and (p_name == "prasad"):
+    if (u_name == "") and (p_name == ""):
         print("   ","User validation is done.....")
     else:
         print("   ", "User validation is not done.....')
