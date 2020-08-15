@@ -16,4 +16,12 @@ def my_second_fun():
     full_n = f_name + "  " + " " + l_name
     print("  ", "My Full name is: ", full_n)
 
+def my_user_validation():
+    u_name = argv[1]
+    p_name = argv[2]
+    if (u_name == "nagendra") and (p_name == "prasad"):
+        print("   ","User validation is done.....")
+    else:
+        print("   ", "User validation is not done.....')
+
 my_second_fun()    
